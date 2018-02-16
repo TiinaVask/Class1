@@ -1,0 +1,46 @@
+    h1, .black { 
+    color: #000000;
+    font-weight: normal; 
+    } 
+    h2 {
+    color: green;
+       
+    }
+    h3 {
+    color: goldenrod;
+    }
+    h2, h3 { 
+    font-weight: normal; 
+    letter-spacing: .4em; 
+    margin-bottom: 1em; 
+    text-transform: lowercase; 
+    word-spacing: .15in
+    }   
+    p {
+        color: red;
+        font-size: 16pt; 
+        line-height: 125%;
+        word-spacing: 15mm;
+    }
+    a {
+        color: blue;
+    }
+    h4#black {
+    color:#000000;    
+                }
+    #black h5 {
+    color:#000000;
+    }
+    
+  
+    h6 {
+        color: brown;
+    }
+
+    ul em {
+        color:red;
+    }
+
+  
+
+
