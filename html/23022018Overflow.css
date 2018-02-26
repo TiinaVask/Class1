@@ -1,0 +1,32 @@
+.lesson11 {
+    background-color: #eee;
+    width: 200px;
+    height: 70px;
+    border: 1px dotted black;
+    overflow: scroll;
+    }
+
+.lesson11_1 p {
+    background-color: #eee;
+    width: 200px;
+    height: 70px;
+    border: 1px dotted black;
+    overflow: scroll;
+    }
+
+.lesson12 {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    overflow: hidden;
+    }
+
+.lesson13 {
+    background-color: #eee;
+    width: 150px;
+    height: 70px;
+    border: 1px dotted black;
+    white-space: nowrap;
+    overflow-x: scroll;
+    }
