@@ -1,0 +1,19 @@
+.Lesson1 h1 {
+   visibility: hidden;
+    }
+
+.Lesson2 h1 {
+   display: none;
+    }
+
+.Lesson3 strong {
+    display: block; 
+    }
+
+.lesson4 ul li {
+    display: inline; 
+    }
+
+.lesson5 ul li {
+    display: inline; 
+    }
