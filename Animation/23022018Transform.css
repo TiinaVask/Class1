@@ -1,0 +1,168 @@
+/* The animation code */
+@keyframes example1 {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: yellow;
+    }
+  }
+  
+  /* The element to apply the animation to */
+  .example1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 4s;
+  }
+  
+  /* The animation code */
+  @keyframes example2 {
+    0% {
+      background-color: red;
+    }
+    25% {
+      background-color: yellow;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+  
+  /* The element to apply the animation to */
+  .example2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+  }
+  
+  /* The animation code */
+  @keyframes example3 {
+    0% {
+      background-color: red;
+      left: 200px;
+      top: 0px;
+    }
+    25% {
+      background-color: yellow;
+      left: 1000px;
+      top: 0px;
+    }
+    50% {
+      background-color: blue;
+      left: 1000px;
+      top: 200px;
+    }
+    75% {
+      background-color: green;
+      left: 200px;
+      top: 200px;
+    }
+    100% {
+      background-color: red;
+      left: 200px;
+      top: 0px;
+    }
+  }
+  
+  /* The element to apply the animation to */
+  .example3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-direction: alternate;
+    margin-right: 150px;
+    background-color: red;
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+ 
+  }
+  
+  #animated_div {
+    width: 100px;
+    height: 47px;
+    background: #92b901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: animated_div 5s 1;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    -moz-animation: animated_div 5s 1;
+    -webkit-animation: animated_div 5s 1;
+    -o-animation: animated_div 5s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes animated_div {
+    0% {
+      transform: rotate(0deg);
+      left: 350px;
+    }
+  
+    25% {
+      transform: rotate(20deg);
+      left: 350px;
+    }
+    50% {
+      transform: rotate(0deg);
+      left: 900px;
+    }
+    55% {
+      transform: rotate(0deg);
+      left: 900px;
+    }
+    70% {
+      transform: rotate(0deg);
+      left: 900px;
+      background: #1ec7e6;
+    }
+    100% {
+      transform: rotate(-360deg);
+      left: 350px;
+    }
+  }
+  
+  .example4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example4 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  /* Standard syntax */
+  @keyframes example4 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
